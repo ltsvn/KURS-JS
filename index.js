@@ -39,13 +39,21 @@
 
 //..............................................................................................................
 
-let x = 50;
-let y = 30;
+// let x = 50;
+// let y = 30;
 
-if (x > y){
-console.log(`Wartość ${x} jest większe, niz ${y}.`)
+// if (x > y){
+// console.log(`Wartość ${x} jest większe, niz ${y}.`)
+// }
+
+//...............................................................................................................
+
+let color = 'blue';
+let newColor = 'green';
+
+if (color == newColor) {
+    console.log('Colory się zgadzają.');
+} else {
+    console.log('Colory się nie zgadzają.');
 }
-
-
-
 
