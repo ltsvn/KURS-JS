@@ -72,24 +72,33 @@
 
 //................................................................................................................
 
- const promo = '20%';
+//  const promo = '20%';
 
- switch(promo) {
-    case '10%':
-        console.log('Dziś mamy 10% znizki!');
-        break;
-    case '20%':
-        console.log('Dziś mamy 20% znizki!');
-        break;
-    case '30%':
-        console.log('Dziś mamy 30% znizki!');
-        break;
-        default:
-        // console.log('Dziś mamy wiele innych znizek!');
-        console.log(`Dziś mamy ${promo} znizki!`);
- }
+//  switch(promo) {
+//     case '10%':
+//         console.log('Dziś mamy 10% znizki!');
+//         break;
+//     case '20%':
+//         console.log('Dziś mamy 20% znizki!');
+//         break;
+//     case '30%':
+//         console.log('Dziś mamy 30% znizki!');
+//         break;
+//         default:
+//         // console.log('Dziś mamy wiele innych znizek!');
+//         console.log(`Dziś mamy ${promo} znizki!`);
+//  }
 
 //..................................................................................................................
+
+const x = 10 
+
+const newX = 10%3 ? `${x} parzyste` : `${x} nie parzyste`;
+
+console.log(newX)
+
+//.....................................................................................................................
+
 
 
 
