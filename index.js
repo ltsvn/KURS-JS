@@ -48,12 +48,35 @@
 
 //...............................................................................................................
 
-let color = 'blue';
-let newColor = 'green';
+// let color = 'blue';
+// let newColor = 'green';
 
-if (color == newColor) {
-    console.log('Colory się zgadzają.');
+// if (color == newColor) {
+//     console.log('Colory się zgadzają.');
+// } else {
+//     console.log('Colory się nie zgadzają.');
+// }
+
+//................................................................................................................
+
+const x = 100
+const y = 50
+
+if(x > y) {
+    console.log(`x > y`);
+} else if (x === y) {
+    console.log(`x = y`);
 } else {
-    console.log('Colory się nie zgadzają.');
+    console.log(`x < y`)
 }
+
+//................................................................................................................
+
+
+
+
+
+
+
+
 
