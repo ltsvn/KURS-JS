@@ -99,18 +99,36 @@
 
 //.....................................................................................................................
 
-const x = 50;
-let text
+// const x = 50;
+// let text
 
-if (x >= 100) {
-    text = `x > 100`
-}else if (x < 100 && x > 30) {
-    text = `x jest średniakiem`
-}else {
-    text = `x jest mały`
-}
+// if (x >= 100) {
+//     text = `x > 100`
+// }else if (x < 100 && x > 30) {
+//     text = `x jest średniakiem`
+// }else {
+//     text = `x jest mały`
+// }
 
-console.log(text.toUpperCase)
+// console.log(text.toUpperCase)
 
 //........................................................................................................................
 
+const colors = ['red', 'blue', 'green', 'yellow', 'black']
+
+for(let i = 0; i < colors.length; i++) {
+    console.log(colors[i])
+}
+
+//................................................................................................................
+
+
+
+
+
+
+
+
+
+
+ 
