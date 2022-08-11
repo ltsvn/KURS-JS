@@ -114,18 +114,48 @@
 
 //........................................................................................................................
 
-const colors = ['red', 'blue', 'green', 'yellow', 'black']
+// const colors = ['red', 'blue', 'green', 'yellow', 'black']
 
-for(let i = 0; i < colors.length; i++) {
-    console.log(colors[i])
-}
+// for(let i = 0; i < colors.length; i++) {
+//     console.log(colors[i])
+// }
 
 //................................................................................................................
 
+// let i = 0
+
+// while (i < 5) {
+//     i++
+//     console.log(i)
+// }
+
+// do {
+//     i++
+//     console.log(i)
+// } while (i < 2)
+
+//...................................................................................................................
+// const numbers = [1, 2, 3, 4, 5, 6]
+// for (let i = 0; i < numbers.length; i++) {           kiedy chcemy pracować z konkretnymi indeksami
+//     console.log(numbers[1] *2)
+// }
+// або 
+
+// for (const number of numbers) {                       jezeli chcemy calą tablice bez odzielnych indeksów
+//     console.log(number *2)
+// }
 
 
 
+// ..................................................................................................................
 
+const city = ['Kyiv', 'Warsaw', 'Lublin', 'Rzeszów']
+
+for (let i = 0; i < city.length; i++) {
+    console.log(`To miasto nazywa się: ${city[i].toUpperCase}!`)
+} 
+
+//....................................................................................................................
 
 
 
