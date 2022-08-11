@@ -166,19 +166,36 @@
 
 //......................................................................................................................
 
-let x = 20;
+// let x = 20;
 
-console.log(`Przed pętlą: ${x}`);
+// console.log(`Przed pętlą: ${x}`);
 
-do {
-    x -= 3
-    console.log(x)
-} while (x > 0)
+// do {
+//     x -= 3
+//     console.log(x)
+// } while (x > 0)
 
-console.log(`Poza pętlą: ${x}`);
+// console.log(`Poza pętlą: ${x}`);
 
 //......................................................................................................................
 
+let numbers = ['5', '8', '10', '23', '48', '60']
+
+console.log(numbers);
+
+// for(let number of numbers) {
+//     console.log(number / 5);
+// }
+
+for(let number of numbers) {
+    if (number % 2) {
+        console.log(`Liczba ${number} jest nieparzysta`)
+    } else {
+        console.log(`Liczba ${number} jest parzysta`)
+    }
+}
+
+//........................................................................................................................
 
 
 
