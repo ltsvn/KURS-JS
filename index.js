@@ -179,26 +179,60 @@
 
 //......................................................................................................................
 
-let numbers = ['5', '8', '10', '23', '48', '60']
+// let numbers = ['5', '8', '10', '23', '48', '60']
 
-console.log(numbers);
+// console.log(numbers);
+
+// // for(let number of numbers) {
+// //     console.log(number / 5);
+// // }
 
 // for(let number of numbers) {
-//     console.log(number / 5);
+//     if (number % 2) {
+//         console.log(`Liczba ${number} jest nieparzysta`)
+//     } else {
+//         console.log(`Liczba ${number} jest parzysta`)
+//     }
 // }
-
-for(let number of numbers) {
-    if (number % 2) {
-        console.log(`Liczba ${number} jest nieparzysta`)
-    } else {
-        console.log(`Liczba ${number} jest parzysta`)
-    }
-}
 
 //........................................................................................................................
 
+const numbers = [0, 0, 1, 1, 2, 2, 2]
+const colors = ['red', 'green', 'blue', true, 123]
+const cars = [123, true, 'audi', 'bmw', 'mercedes', 'ferrari', '🤷‍♂️', '👀']
+
+let numbers2 = numbers.slice(0, 2);
+
+let numbers3 = numbers.slice(4,)
+
+console.log(numbers2)
+console.log(numbers3)
+
+let randomStuff = colors.splice(3,2)
+
+console.log(colors)
+console.log(randomStuff)
+
+let newCars = cars.splice(2, 4, 'test')
+
+console.log(cars)
+console.log(newCars)
+
+
+// slice() – metoda niedestrukcyjna 👍
+// pierwszy argument – indeks elementu, od którego wycinamy (włącznie),
+
+// drugi argument – indeks elementu, do którego wycinamy (ale bez tego elementu).
 
 
 
+// splice() – metoda destrukcyjna 💣
+// pierwszy argument – indeks elementu, od którego wycinamy (włącznie),
 
+// drugi argument – ilość elementów, które wycinamy,
 
+// każdy kolejny argument – nowy element, który chcemy dodać do tablicy w miejsce wyciętego.
+
+// Uwaga! Zarówno przy slice jak i splice, nie musimy podawać wszystkich argumentów. Jeden też zadziała. 😉
+
+//..........................................................................................................
