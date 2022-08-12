@@ -1,3 +1,9 @@
+
+// const result = alphabet.split('').map((letter, i) =>  [i,letter.toLocaleLowerCase()] ).flat()
+
+// console.log('res', result);
+
+
 // let myName = 'Nastya';
 // let dogsName = 'Kiki';
 
@@ -197,26 +203,26 @@
 
 //........................................................................................................................
 
-const numbers = [0, 0, 1, 1, 2, 2, 2]
-const colors = ['red', 'green', 'blue', true, 123]
-const cars = [123, true, 'audi', 'bmw', 'mercedes', 'ferrari', '🤷‍♂️', '👀']
+// const numbers = [0, 0, 1, 1, 2, 2, 2]
+// const colors = ['red', 'green', 'blue', true, 123]
+// const cars = [123, true, 'audi', 'bmw', 'mercedes', 'ferrari', '🤷‍♂️', '👀']
 
-let numbers2 = numbers.slice(0, 2);
+// let numbers2 = numbers.slice(0, 2);
 
-let numbers3 = numbers.slice(4,)
+// let numbers3 = numbers.slice(4,)
 
-console.log(numbers2)
-console.log(numbers3)
+// console.log(numbers2)
+// console.log(numbers3)
 
-let randomStuff = colors.splice(3,2)
+// let randomStuff = colors.splice(3,2)
 
-console.log(colors)
-console.log(randomStuff)
+// console.log(colors)
+// console.log(randomStuff)
 
-let newCars = cars.splice(2, 4, 'test')
+// let newCars = cars.splice(2, 4, 'test')
 
-console.log(cars)
-console.log(newCars)
+// console.log(cars)
+// console.log(newCars)
 
 
 // slice() – metoda niedestrukcyjna 👍
@@ -236,3 +242,83 @@ console.log(newCars)
 // Uwaga! Zarówno przy slice jak i splice, nie musimy podawać wszystkich argumentów. Jeden też zadziała. 😉
 
 //..........................................................................................................
+
+// let letters = ['c', 'd']
+
+// letters.unshift('a', 'b')
+// letters.push('e', 'f')
+
+// console.log(letters)
+// console.log(letters.includes('c'))
+
+
+//..........................................................................................................
+
+// let numbers = [1, 2, 3, 4, 5]
+// let meals = ['meat', 'bread','milk', 'banana']
+
+// let newBox = [...numbers, ...meals]
+
+// console.log(newBox)
+
+//..........................................................................................................
+
+// let numbers = [1, 5, 13, 26, 48]
+
+// let newNumbers = numbers.map(numbers => numbers * 5)
+
+// console.log(newNumbers)
+
+// for (let number of newNumbers) {
+//     if (number % 2) {
+//         console.log(`Liczba nieparzysta: ${number}`)
+//     } else {
+//         console.log(`Liczba parzysta: ${number}`)
+//     }
+// }
+
+//..........................................................................................................
+
+// let color = ['green']
+
+// color.unshift('black')
+// color.push('red')
+
+// for (let i = 0; i < color.length; i++) {
+//     console.log(`My favourite color is ${color[i].charAt(0).toUpperCase() + color[i].slice(1)}`)
+// }
+
+
+//..........................................................................................................
+
+// let cars = 'Audi, Mercedes, BMW, Nissan, Dodge';
+
+// let arrayCars = cars.split(' ')
+
+// console.log(arrayCars)
+
+// console.log(arrayCars.length > 3 ? 'Jest OK' : 'Nie jest OK')
+
+// if (arrayCars.includes('Audi')) {
+//     arrayCars.unshift('Bentley')
+// }else {
+//     arrayCars.pop()
+// }
+
+// console.log(arrayCars)
+
+//..........................................................................................................
+
+
+// const count = 10;
+
+// const res = []
+
+// for (let i = 1; i <= count; i++)
+//     res.push({[i]: count})
+
+// console.log(res)
+
+// // [{1: 10}, {2: 10} ... {3: 10}]
+
+
