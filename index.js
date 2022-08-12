@@ -321,4 +321,74 @@
 
 // // [{1: 10}, {2: 10} ... {3: 10}]
 
+//..........................................................................................................
+
+// function test(name, age) {
+//     console.log(`Cześć, mam na imię ${name} i mam ${age} lat.`)
+// }
+
+// test('Nastya', 20)
+
+//..........................................................................................................
+
+// let score 
+
+// function add(x,y) {
+//     score = x+y
+// if(score % 2) {
+//     countable()
+// } else {
+//     uncountable()
+// }
+// }
+
+// function countable() {
+//     console.log(`Liczba ${score} jest parzysta`);
+// }
+
+// function uncountable() {
+//     console.log(`Liczba ${score} jest nieparzysta`);
+// }
+// add(7, 8)
+
+//..........................................................................................................
+
+// let celsius
+// let temp
+
+// function fahrenheit(x) {
+//     celsius = x
+//     temp = celsius * 1.8 + 32
+// }
+
+// fahrenheit(20)
+
+// console.log(`${celsius}C = ${temp}F`);
+
+//..........................................................................................................
+
+let num = 10
+let numbers = []
+
+for (let i = 0; i < num; i++) {
+    numbers.push(i);
+}
+
+function chekNumbers(x) {
+    if(x % 3 === 0 && x !== 0) {
+        console.log(`${x} jest podzielnie przez 3.`);
+    }else {
+        console.log(`${x} nie jest podzielnie przez 3 lub ${x} = 0.`);
+    }
+}
+console.log(numbers.forEach(chekNumbers));
+
+//..........................................................................................................
+
+
+
+
+
+
+
 
