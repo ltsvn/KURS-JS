@@ -367,24 +367,53 @@
 
 //..........................................................................................................
 
-let num = 10
-let numbers = []
+// let num = 10
+// let numbers = []
 
-for (let i = 0; i < num; i++) {
-    numbers.push(i);
-}
+// for (let i = 0; i < num; i++) {
+//     numbers.push(i);
+// }
 
-function chekNumbers(x) {
-    if(x % 3 === 0 && x !== 0) {
-        console.log(`${x} jest podzielnie przez 3.`);
-    }else {
-        console.log(`${x} nie jest podzielnie przez 3 lub ${x} = 0.`);
-    }
-}
-console.log(numbers.forEach(chekNumbers));
+// function chekNumbers(x) {
+//     if(x % 3 === 0 && x !== 0) {
+//         console.log(`${x} jest podzielnie przez 3.`);
+//     }else {
+//         console.log(`${x} nie jest podzielnie przez 3 lub ${x} = 0.`);
+//     }
+// }
+// console.log(numbers.forEach(chekNumbers));
 
 //..........................................................................................................
 
+// let createdDiv = document.querySelector('div')
+
+// let newP = document.createElement('p')
+
+// createdDiv.appendChild(newP)
+
+
+// console.log(createdDiv)
+
+//..........................................................................................................
+
+ let newUlList = document.createElement('ul');
+ let ulList = document.body.appendChild(newUlList)
+ 
+
+for (let i = 1; i <= 10; i++) {
+    let newLiItems = document.createElement('li')
+    let liItems = ulList.appendChild(newLiItems)
+    liItems.textContent = i 
+}
+
+let lastElem = newUlList.querySelector('li:last-child')
+lastElem.textContent = 'Jestem ostatnim elementem'
+
+lastElem.style.backgroundColor = 'royalblue';
+lastElem.style.padding = '20px 40px';
+lastElem.style.fontSize = '48px';
+
+//..........................................................................................................
 
 
 
